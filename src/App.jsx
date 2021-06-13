@@ -1,5 +1,6 @@
+import { RepositoryList } from './components/RepositoryList';
+import './styles/global.scss';
 
 export function App() {
-    // throw new Error();
-    return <h1>Hello Denys</h1>
+    return <RepositoryList/>
 }
